@@ -12,5 +12,6 @@ app.get('/status', (req, res) => {
   return res.send({message: 'hello world'})
 })
 
+// Start the server
 const PORT = process.env.PORT || 3000
-app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`))
+app.listen(PORT, () => console.log(`Server listening on port ${PORT}!`))
