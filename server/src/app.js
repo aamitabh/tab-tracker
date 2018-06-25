@@ -9,7 +9,7 @@ app.use(bodyParser.json())
 app.use(cors())
 
 app.get('/status', (req, res) => {
-  return res.send({message: 'hello world'})
+  return res.send({message: 'hello world!!'})
 })
 
 // parameterized port and start listening
